@@ -1,0 +1,21 @@
+.container {
+      border: solid gold;
+      display: flex;
+
+}
+      
+
+.container > div {
+      flex: 0 0 0;
+}
+
+.search-pic {
+      background-color:hotpink;
+      
+}
+.search-box {
+     
+}
+.logo {
+     
+}
