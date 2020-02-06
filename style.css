@@ -1,0 +1,35 @@
+
+/* -----------------Global Style -------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* ----------------- Header Style -------------------- */
+.container > div {
+  justify-content: right;
+  text-align: center;
+  font-size: 1em;
+  color:white;
+  font-family: 'Roboto', sans-serif;
+src: url("https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap");
+font-style: bold;
+font-weight: 100%
+}
+
+.container > div:nth-child(1) {
+  background-color:grey;
+  
+}
+
+/* ----------------- Body Style -------------------- */
+html, body {
+  box-sizing: border-box;
+  background-color:white ;
+  height: 100%;
+  padding: 0;  
+  margin: 0 auto;
+  max-width: 1000px; 
+}
